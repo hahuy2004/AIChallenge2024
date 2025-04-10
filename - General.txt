@@ -1,0 +1,10 @@
+- General: 
+	Number of frames: 500 (Default)
+	Model: CLIPVv2, CLIP
+	Filter dropdown; Number of filter
+	Username: Default = ''
+	Dark mode
+	Number of LV per page: Default = 7
+----------------------------------------------
+- Feedback: Feedback checkbox + Send button
+	

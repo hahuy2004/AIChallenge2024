@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple image search engine</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="query_img"><br>
+            <input type="submit">
+        </form>
+        <h2>Query:</h2>
+        {% if query_path %}
+        <img src="{{ query_path }}" width="300px">
+        {% endif %}
+        <h2>Results:</h2>
+        <!-- {% for score in scores %}
+        <figure style="float: left; margin-right: 20px; margin-bottom: 20px;">
+            <img src="{{ score[1] }}" height="200px">
+            <figcaption>{{ score[0] }}</figcaption>
+        </figure>
+        {% endfor %}
+        <h1>{{ frameData }}</h1> -->
+
+        {% for res in results %}
+        <figure style="float: left; margin-right: 20px; margin-bottom: 20px;">
+            <img src="{{ res[1] }}" height="200px">
+            <figcaption>{{ res[0] }}</figcaption>
+            {% if res[2] %}
+            <!-- <h3> frame-id: {{ res[3] }} | pts-time: {{ res[2] }}</h3> -->
+            <h4> Frame-id: {{ res[2]['frame_idx'] }} | Pts-time: {{ res[2]['pts_time'] }}</h4>
+            <h6>LV: {{ res[2]['LV_id'] }}</h6>
+            {% endif %}
+
+        </figure>
+        {% endfor %}
+    </div>
+</body>
+
+</html>

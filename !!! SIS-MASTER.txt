@@ -1,0 +1,25 @@
+!!! SIS-MASTER
+d:
+cd D:\Documents\AIChallenge\Code\Competition\Competition_AIChallenge2023\AIChallenge2023\backend\sis_master
+python server.py
+
+---
+
+!!! FRONT-END
+d:
+cd D:\Documents\AIChallenge\Code\Competition\Competition_AIChallenge2023\AIChallenge2023\frontend/ai
+npm run dev
+
+---
+
+!!! STORAGE
+d:
+cd D:\Documents\AIChallenge\Code\Competition\Competition_AIChallenge2023\AIChallenge2023\storage
+python appStorage.py
+
+
+!!! BACK-END
+conda activate AIChallenge2023
+d:
+cd D:\Documents\AIChallenge\Code\Competition\Competition_AIChallenge2023\AIChallenge2023/backend
+python app.py

@@ -1,0 +1,236 @@
+[
+    {
+        "video_id": "L01_V031",
+        "video_info": {
+            "lst_idxs": [
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V031\\0003.webp"
+            ],
+            "lst_scores": [
+                0.421460896730423
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V004",
+        "video_info": {
+            "lst_idxs": [
+                -1
+            ],
+            "lst_keyframe_idxs": 32489,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V004\\0301.webp"
+            ],
+            "lst_scores": [
+                0.4130514860153198
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V025",
+        "video_info": {
+            "lst_idxs": [
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V025\\0013.webp"
+            ],
+            "lst_scores": [
+                0.4106188714504242
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V015",
+        "video_info": {
+            "lst_idxs": [
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V015\\0003.webp"
+            ],
+            "lst_scores": [
+                0.4038160741329193
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V005",
+        "video_info": {
+            "lst_idxs": [
+                -1
+            ],
+            "lst_keyframe_idxs": 75,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V005\\0002.webp"
+            ],
+            "lst_scores": [
+                0.39617976546287537
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V014",
+        "video_info": {
+            "lst_idxs": [
+                -1,
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V014\\0254.webp",
+                "static\\img\\L01\\V014\\0003.webp"
+            ],
+            "lst_scores": [
+                0.3916824758052826,
+                0.39170774817466736
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V021",
+        "video_info": {
+            "lst_idxs": [
+                -1,
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V021\\0003.webp",
+                "static\\img\\L01\\V021\\0055.webp"
+            ],
+            "lst_scores": [
+                0.38118577003479004,
+                0.40802881121635437
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V024",
+        "video_info": {
+            "lst_idxs": [
+                -1,
+                -1,
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V024\\0003.webp",
+                "static\\img\\L01\\V024\\0014.webp",
+                "static\\img\\L01\\V024\\0002.webp"
+            ],
+            "lst_scores": [
+                0.3760732412338257,
+                0.393131822347641,
+                0.40337666869163513
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V017",
+        "video_info": {
+            "lst_idxs": [
+                -1,
+                -1,
+                -1,
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V017\\0017.webp",
+                "static\\img\\L01\\V017\\0282.webp",
+                "static\\img\\L01\\V017\\0128.webp",
+                "static\\img\\L01\\V017\\0003.webp"
+            ],
+            "lst_scores": [
+                0.37577593326568604,
+                0.3964676558971405,
+                0.4124614894390106,
+                0.42130526900291443
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V030",
+        "video_info": {
+            "lst_idxs": [
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V030\\0002.webp"
+            ],
+            "lst_scores": [
+                0.37185126543045044
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V006",
+        "video_info": {
+            "lst_idxs": [
+                -1,
+                -1,
+                -1,
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01_extra\\V006\\027996.webp",
+                "static\\img\\L01_extra\\V006\\000337.webp",
+                "static\\img\\L01_extra\\V006\\027882.webp",
+                "static\\img\\L01_extra\\V006\\000144.webp"
+            ],
+            "lst_scores": [
+                0.3485633432865143,
+                0.38825714588165283,
+                0.41139358282089233,
+                0.42217305302619934
+            ]
+        }
+    },
+    {
+        "video_id": "L01_V001",
+        "video_info": {
+            "lst_idxs": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+            ],
+            "lst_keyframe_idxs": -1,
+            "lst_keyframe_paths": [
+                "static\\img\\L01\\V001\\0003.webp",
+                "static\\img\\L01_extra\\V001\\000321.webp",
+                "static\\img\\L01_extra\\V001\\000136.webp",
+                "static\\img\\L01_extra\\V001\\003223.webp",
+                "static\\img\\L01\\V001\\0168.webp",
+                "static\\img\\L01\\V001\\0028.webp",
+                "static\\img\\L01_extra\\V001\\003034.webp",
+                "static\\img\\L01_extra\\V001\\002656.webp",
+                "static\\img\\L01_extra\\V001\\000228.webp"
+            ],
+            "lst_scores": [
+                0.3115929067134857,
+                0.343336820602417,
+                0.3927162289619446,
+                0.3929235637187958,
+                0.3986063003540039,
+                0.40755778551101685,
+                0.41177523136138916,
+                0.4128181040287018,
+                0.41419917345046997
+            ]
+        }
+    }
+]

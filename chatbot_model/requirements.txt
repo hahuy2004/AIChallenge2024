@@ -1,0 +1,5 @@
+Flask           # Flask framework for building web applications
+flask-cors      # Handling CORS (Cross-Origin Resource Sharing)
+openai          # OpenAI API wrapper
+python-dotenv   # Loading environment variables from .env file
+flask-limiter   # Rate limiting for Flask requests
