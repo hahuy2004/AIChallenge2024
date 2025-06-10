@@ -154,9 +154,6 @@ cd E:\AIO-2022 - Copy\Competition\Competition_AIChallenge2023\AIChallenge2023
 e:
 python appStorage.py
 ```
-
-## Citation
-
 location = {Ho Chi Minh, Vietnam},
 series = {SOICT '23}
 }
