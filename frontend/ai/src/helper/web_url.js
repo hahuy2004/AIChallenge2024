@@ -1,5 +1,5 @@
 //BACKEND
-export const web_url = "http://127.0.0.1:8080";
+export const web_url = "http://localhost:8080";
 // export const web_url = 
 //   "https://f9a5-34-82-215-51.ngrok-free.app";
 
