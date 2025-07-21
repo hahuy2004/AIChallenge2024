@@ -1,25 +1,19 @@
-!!! SIS-MASTER
-d:
-cd D:\Documents\AIChallenge\Code\Competition\Competition_AIChallenge2023\AIChallenge2023\backend\sis_master
-python server.py
-
----
-
-!!! FRONT-END
-d:
-cd D:\Documents\AIChallenge\Code\Competition\Competition_AIChallenge2023\AIChallenge2023\frontend/ai
-npm run dev
-
----
-
-!!! STORAGE
-d:
-cd D:\Documents\AIChallenge\Code\Competition\Competition_AIChallenge2023\AIChallenge2023\storage
-python appStorage.py
-
-
-!!! BACK-END
-conda activate AIChallenge2023
-d:
-cd D:\Documents\AIChallenge\Code\Competition\Competition_AIChallenge2023\AIChallenge2023/backend
+- Chạy Backend
+cd F:\AIO-AIC\AIChallenge2024\backend
+f:
 python app.py
+
+- Chạy Frontend
+cd F:\AIO-AIC\AIChallenge2024\frontend\ai
+f:
+npm run dev (Nếu chưa có: npm install next react react-dom)
+
+- Chạy GPT
+cd F:\AIO-AIC\AIChallenge2024\chatbot_model
+f:
+python model.py
+
+- Chạy storage
+cd F:\AIO-AIC\AIChallenge2024\storage
+f:
+python appStorage.py
