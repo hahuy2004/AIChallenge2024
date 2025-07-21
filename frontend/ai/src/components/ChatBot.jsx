@@ -113,7 +113,7 @@ return (
                                     : 'bg-gray-200 text-gray-800'
                             }`}
                         >
-                            {message.role == 'ai' && splitResponse ? (message.content.split('\n').map((line, index) => (
+                            {message.role == 'ai' && splitResponse && typeof message.content === 'string' ? (message.content.split('\n').map((line, index) => (
                                 <button
                                     key={index}
                                     className="bg-gray-300 text-black m-1 p-2 rounded"

@@ -130,7 +130,7 @@ function index() {
       .then((res) => {
         // console.log(JSON.stringify(res))
         // console.log(JSON.stringify(questions));
-        console.log("set");
+       // console.log("set");
         setQuestions(res);
         setQuestionsLoading(false);
       })
@@ -168,7 +168,7 @@ function index() {
   };
 
   const handleSaveSettings = (newSettings) => {
-    console.log("New settings: " + JSON.stringify(newSettings));
+  //  console.log("New settings: " + JSON.stringify(newSettings));
 
     setUsername(newSettings?.username ?? username);
 
@@ -584,11 +584,11 @@ function index() {
 
   const autoFetch = () => {
     let lst_idxs = handleAutoIgnore(page, true);
-    console.log("lstidx ", lst_idxs);
+  //  console.log("lstidx ", lst_idxs);
     if (!lst_idxs) {
       return;
     } else {
-      console.log(lst_idxs);
+    //  console.log(lst_idxs);
       showDialog("success", "Auto Fetching...");
       fetch(`${socket_url}/getignore`, {
         method: "post",
@@ -603,9 +603,9 @@ function index() {
         .then((res) => res.json())
         .then((data) => {
           let ignoreIndexes = data.data;
-          console.log("...lst_idxs", ...lst_idxs);
+        //  console.log("...lst_idxs", ...lst_idxs);
           ignoreIndexes.push(...lst_idxs);
-          console.log(ignoreIndexes);
+        //  console.log(ignoreIndexes);
 
           let filtervideo =
             selectedFilter.name === "No Filter"

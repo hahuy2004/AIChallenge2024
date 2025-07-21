@@ -34,6 +34,8 @@ function ImageList({
       <div className="group inline-flex relative h-[120px] w-[213px]">
         <Image
           src={imagepath}
+          alt="img"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           // src={"/shoes.jpg"}
           fill={true}
           className=" duration-300 relative rounded-md"

@@ -54,5 +54,13 @@
   {
     "role": "ai",
     "content": "1. The opening segment of a fashion show featuring a model in a red outfit holding a musical instrument.\n2. At the beginning of a fashion event, the first model appears in a red attire, carrying a specific musical instrument.\n3. A fashion show kicks off with the entrance of the initial model wearing a red garment and holding a musical prop.\n4. The start of a runway presentation showcases a model in red attire, adorned with a musical instrument in hand.\n5. The commencement of a fashion display introduces the first model in a red outfit, accessorized with a musical device."
+  },
+  {
+    "role": "user",
+    "content": "As an expert in image retrieval tasks, particularly in query-based searches for news report videos, provide 5 diverse paraphrased sentences based on the following input sentence. These paraphrases should be designed to cover a wide range of scenarios and augment the original sentence, ensuring a Visual-Language Model can fully understand and excel in text-to-image retrieval tasks of this sentence:\u0110o\u1ea1n \u0111\u1ea7u c\u1ee7a m\u1ed9t bu\u1ed5i tr\u00ecnh di\u1ec5n th\u1eddi trang. Ng\u01b0\u1eddi m\u1eabu \u0111\u1ea7u ti\u00ean b\u01b0\u1edbc ra m\u1eb7c b\u1ed9 trang ph\u1ee5c m\u00e0u \u0111\u1ecf, tay c\u1ea7m m\u1ed9t lo\u1ea1i nh\u1ea1c c\u1ee5."
+  },
+  {
+    "role": "ai",
+    "content": "1. At the beginning of a fashion show, the first model walks out in a red outfit, holding a musical instrument.\n2. The opening segment of a fashion presentation features the initial model in a red attire, carrying a specific musical tool on hand.\n3. In the introduction of a fashion event, the first model strides in wearing a red costume and clutching a musical instrument.\n4. The start of a fashion spectacle showcases the lead model donning red clothing and handling a musical device.\n5. A fashion runway commences with the appearance of the first model dressed in red attire and holding a musical instrument."
   }
 ]

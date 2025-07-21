@@ -34,4 +34,4 @@ Chức năng cụ thể của các hàm được sử dụng:
 
 # Running app
 if __name__ == '__main__':
-    app.run(debug=True, port=8081)
+    app.run(debug=True, port=8080)

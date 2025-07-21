@@ -1,27 +1,22 @@
 # Importing the libraries that we will use in this notebook.
-import googletrans
+from deep_translator import GoogleTranslator
 
 class Translation():
     def __init__(self, from_lang='vi', to_lang='en'):
-        # The class Translation is a wrapper for the two translation libraries, googletrans and translate. 
+        # Wrapper đơn giản cho thư viện deep-translator
+        self.__from_lang = from_lang
         self.__to_lang = to_lang
-        self.translator = googletrans.Translator()
+        self.translator = GoogleTranslator(source=self.__from_lang, target=self.__to_lang)
 
     def preprocessing(self, text):
         """
-        It takes a string as input, and returns a string with all the letters in lowercase
-
-        :param text: The text to be processed
-        :return: The text is being returned in lowercase.
+        Chuyển văn bản về chữ thường
         """
         return text.lower()
 
     def __call__(self, text):
         """
-        The function takes in a text and preprocesses it before translation
-
-        :param text: The text to be translated
-        :return: The translated text.
+        Tiền xử lý và dịch văn bản
         """
         text = self.preprocessing(text)
-        return self.translator.translate(text, dest=self.__to_lang).text
+        return self.translator.translate(text)

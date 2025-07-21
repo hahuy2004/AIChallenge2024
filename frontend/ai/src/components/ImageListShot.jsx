@@ -21,6 +21,8 @@ function ImageList({
     >
       <div className="group inline-flex relative h-[167px] w-[300px]">
         <Image
+        alt="img"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           src={imagepath}
           // src={"/shoes.jpg"}
           fill={true}

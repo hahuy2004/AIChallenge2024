@@ -23,6 +23,8 @@ function ImageList({
       <div className=" relative h-[167px] w-[300px]">
         <Image
           onDragStart={(e) => e.preventDefault()}
+          alt="img"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           src={imagepath}
           // src={"/shoes.jpg"}
           fill={true}

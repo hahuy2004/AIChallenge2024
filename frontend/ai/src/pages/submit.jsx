@@ -23,6 +23,10 @@ const socket = io(socket_url, {
     "ngrok-skip-browser-warning": "69420",
   },
 });
+
+ const SESSIONID="MiN1fWb2IL0vA3yZsYBTubpm6qXH0r4a";
+  const KISID = "4a3a4519-a9a9-47e2-b6b4-acc9ae55114f";
+
 function submit() {
   const [QvsA, setQvsA] = useState(false);
   const [QvsAData, setQvsAData] = useState("");
@@ -135,6 +139,81 @@ function submit() {
     link.click();
     document.body.removeChild(link);
   }
+
+ 
+
+  const sendQAtoServer = async (questionName, answer, video_id, time) => {
+    const data = {
+      "answerSets": video_id.map((id, index) => ({
+        "answers": [
+          {
+            "text": `${answer}-${id}-${time[index]}`
+          }
+        ]
+      }))
+    };
+  
+    const url = `https://eventretrieval.one/api/v2/submit/${KISID}?session=${SESSIONID}`;
+
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+  
+      if (response.ok) {
+        const result = await response.json();
+        console.log('Data submitted successfully:', result);
+      } else {
+        console.error('Error submitting data:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Network error:', error);
+    }
+  };
+
+  const sendKIStoServer = async (questionName, video_id, start, end) => {
+    const data = {
+      "answerSets": video_id.map((id, index) => ({
+        "answers": [
+          {
+            "mediaItemName": id,
+            "start": start[index],
+            "end": end[index]
+          }
+        ]
+      }))
+    };
+  
+    const url = `https://eventretrieval.one/api/v2/submit/${KISID}?session=${SESSIONID}`;
+  
+    console.log("Data: ");
+    console.log(data);
+
+    console.log("URL: ");
+    console.log(url);
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: data
+      });
+  
+      if (response.ok) {
+        const result = await response.json();
+        console.log('Data submitted successfully:', result);
+      } else {
+        console.error('Error submitting data:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Network error:', error);
+    }
+  };
 
 
   const fetchGetObj = {

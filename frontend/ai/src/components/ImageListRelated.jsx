@@ -13,6 +13,8 @@ function ImageList({
     >
       <div className="group relative flex h-[169px] w-[300px]">
         <Image
+          alt="img"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           src={image}
           // src={"/shoes.jpg"}
           fill={true}

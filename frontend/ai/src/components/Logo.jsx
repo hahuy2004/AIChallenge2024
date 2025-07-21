@@ -9,6 +9,7 @@ function Logo() {
                 src={`/HCMUS_Icon.png`} 
                 width={128}
                 height={128}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="rounded-md flex mr-8"
             />
             <span className="text-4xl font-bold">AIO_WAO</span>
